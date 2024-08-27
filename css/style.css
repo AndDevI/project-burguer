@@ -26,7 +26,7 @@ body {
 header .container {
     display: flex;
     align-items: center;
-    padding: 0 45px;
+    padding: 45px 0px;
     gap: 50px;
 }
 
@@ -34,6 +34,7 @@ header .container {
     font-family: "Calistoga", serif;
     font-size: 36px;
     text-decoration: none;
+    color: white;
 }
 
 .logo a span {
@@ -49,4 +50,32 @@ nav {
 nav ul {
     display: flex;
     flex: 1;
+}
+
+nav li {
+    margin: 0 30px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #999;
+}
+
+nav .button {
+    display: block;
+    padding: 15px 30px;
+
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav .button:hover {
+    color: #999;
+    border-color: #999;
 }
