@@ -23,6 +23,13 @@ body {
     padding: 0 20px;
 }
 
+header .container {
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+    gap: 50px;
+}
+
 .logo a {
     font-family: "Calistoga", serif;
     font-size: 36px;
@@ -31,4 +38,15 @@ body {
 
 .logo a span {
     color: #fe6a0f;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
 }
