@@ -1,0 +1,9 @@
+@media (max-widht: 820px) {
+    header nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
