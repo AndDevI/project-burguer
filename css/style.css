@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: auto;
+    padding: 0 20px;
+}
