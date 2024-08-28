@@ -160,3 +160,45 @@ nav .button:hover {
     padding: 80px 0;
     margin-top: -100px;
 }
+
+.searchTitle {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.searchSides {
+    display: flex;
+    margin-top: 30px;
+    gap: 100px;
+}
+
+.search .leftside,
+.search .rightside {
+    flex: 1;
+}
+
+.search input, 
+.search select {
+    width: 100%;
+    padding: 20px;
+    background-color: #2b2b2b;
+
+    border: 0;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 24px;
+    outline: none;
+}
+
+.search input {
+    background-image: url(../assets/icons/searchIcon.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+
+    padding-left: 60px;
+}
+
+.search select {
+    border-right: 20px solid #2b2b2b;
+}

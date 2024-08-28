@@ -28,4 +28,17 @@
         font-size: 44px;
         line-height: 50px;
     }
+
+    .search {
+        padding-bottom: 30px;
+    }
+
+    .searchTitle {
+        text-align: center;
+    }
+
+    .searchSides {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
