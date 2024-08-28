@@ -102,3 +102,25 @@ nav .button:hover {
     height: 6px;
     background-color: white;
 }
+
+.hero .container {
+    display: flex;
+}
+
+.hero .leftside,
+.hero .rightside {
+    flex: 1;
+}
+
+.hero .leftside {
+    padding-bottom: 150px;
+}
+
+.hero .rightside {
+    text-align: center;
+}
+
+.hero .rightside img {
+    width: auto;
+    height: 600px;
+}
