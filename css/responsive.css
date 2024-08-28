@@ -6,4 +6,26 @@
     .menu {
         display: flex;
     }
+
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero .leftside {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .hero .rightside {
+        padding-bottom: 50px;
+    }
+
+    .hero .rightside img {
+        height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
 }
