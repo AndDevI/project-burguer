@@ -154,3 +154,9 @@ nav .button:hover {
 .hero .button:hover {
     opacity: 0.8;
 }
+
+.search {
+    background-color: #1f1f1f;
+    padding: 80px 0;
+    margin-top: -100px;
+}
