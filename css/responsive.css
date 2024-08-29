@@ -41,4 +41,14 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
 }
