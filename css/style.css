@@ -272,30 +272,3 @@ nav .button:hover {
     font-weight: bold;
     color: #fe6a0f;
 }
-
-footer {
-    background-color: #1f1f1f;
-}
-
-footer .container {
-    padding-top: 80px;
-    padding-bottom: 80px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer .copy {
-    font-size: 24px;
-    color: #5f5f5f;
-}
-
-footer .copy a {
-    text-decoration: none;
-    color: #5f5f5f;
-}
-
-footer .copy a:hover {
-    text-decoration: underline;
-}

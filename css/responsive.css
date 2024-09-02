@@ -45,11 +45,6 @@
     .products {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    footer .container {
-        flex-direction: column;
-        gap: 10px;
-    }
 }
 
 @media (max-width: 500px) {
